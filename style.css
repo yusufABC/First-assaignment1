@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Fira Sans", serif;
+
+
+}
+/* Shared styles */
+.btn{
+    background-color:#006A50 ;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+/* nav style */
+.wrap{
+    display:flex;
+    justify-content:space-between;
+    margin: 24px 160px;
+   
+}
+.bd{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sign-btn{
+    padding: 15px 30px;
+    color: #006A50;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid #006A50;
+    font-weight: bold;
+
+}
