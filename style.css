@@ -43,6 +43,12 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+.h4-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 70%) ;
+    margin-bottom: 12px;
+}
 /* nav style */
 .wrap{
     display:flex;
@@ -267,7 +273,7 @@ body{
     border-radius: 5px 0 0 5px;
     /* text-align: center; */
     font-size: 24px;
-    color: #F7EBCF;
+   color:rgba(14, 14, 14, 30%);
     margin-bottom: 32px;
 } 
 .sub-btn{
@@ -275,4 +281,17 @@ body{
     border-radius: 0 5px 5px 0;
     font-size: 18px;
     width: 200px;
+}
+
+/* foooter */
+footer{
+    margin: 50px 0;
+}
+.social-media-logo{
+    
+}
+.social-media-logo img{
+    padding: 0 10px;
+    margin-top:40px ;
+
 }
