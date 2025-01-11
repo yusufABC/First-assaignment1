@@ -9,6 +9,9 @@ body{
 
 }
 /* Shared styles */
+.margin-160{
+    margin: 160px 0;
+}
 .text-center{
     text-align: center;
 }
@@ -243,4 +246,33 @@ body{
 .card-2{
     background-color: #C6E4D6;
 
+}
+/* subscribe section styling */
+.subscribe{
+    background-color: #C6E4D6;
+    margin:80px 160px;
+    padding: 100px 80px;
+    border-radius: 24px;
+}
+.subscriber-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0;
+}
+.sub-input{
+    height: 47px;
+    padding: 20px 40px;
+    width: 1032px;
+    border-radius: 5px 0 0 5px;
+    /* text-align: center; */
+    font-size: 24px;
+    color: #F7EBCF;
+    margin-bottom: 32px;
+} 
+.sub-btn{
+    padding: 35px 30px;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+    width: 200px;
 }
