@@ -11,8 +11,20 @@ body{
 .btn{
     background-color:#006A50 ;
     color: white;
-    padding: 10px 15px;
+    padding: 17px 34px;
     border-radius: 7px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.margin-bottom{
+    margin-bottom: 80px;
+}
+.heading-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.description-title{
+    
 }
 /* nav style */
 .wrap{
@@ -32,5 +44,33 @@ body{
     border-radius: 5px;
     border: 1.5px solid #006A50;
     font-weight: bold;
+
+}
+
+/* styling banner */
+.vision{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 71px 160px;
+    gap: 64px;
+   margin: 160px;
+   border-radius: 10px;
+
+}
+.banner-container{
+    width: 622px;
+
+}
+.banner-title{
+    margin-bottom: 16px;
+    color: rgba(14, 14, 14, 50%);
+    font-size: 24px;
+    
+}
+.banner-description{
+    font-size: 56px;
+    margin-bottom: 24px;
 
 }
