@@ -295,3 +295,83 @@ footer{
     margin-top:40px ;
 
 }
+
+
+
+
+/* media query for smaller device */
+.hide{
+    display:none
+}
+
+@media screen and (max-width:576px) {
+
+nav,
+
+ .vision,
+
+ .future-container,
+
+ .news-wrapper,
+
+ .donate-card-container{
+    justify-content: center;
+    /* margin: 24px 160px; */
+    flex-direction: column;
+    gap: 20px;
+}
+.heading-title{
+    font-size: 25px;
+}
+.description-title{
+    font-size: 18px;
+}
+.banner-container{
+    width: 550px;
+}
+
+
+.vision{
+    background-color:white;
+   
+    text-align: center;
+    padding: 0;
+}
+.banner-description{
+    font-size: 38px;
+}
+
+/* Future card style  */
+.vision-future{
+    margin: 50px;
+}
+
+/* desctittle dr yunus */
+.quote{
+    padding: 10px 15px;
+    margin: 0px;
+    
+}
+/* news wrapper  */
+.recent-news{
+    margin: 60px
+    
+};
+.news-wrapper {
+    padding: 2px;
+}
+
+/* donate section  */
+
+.input-div {
+    text-align: center;
+  
+    margin: 10px;
+    padding: 0px;
+ 
+}
+
+.input-div input {
+    width: calc(100% - 120px);
+}
+}
